@@ -1,9 +1,9 @@
 import {createSignal, For, Show} from "solid-js";
 import HamburgerIcon from "./HamburgerIcon";
-import FadeInUp from "../../node_modules/kmanim/src/components/FadeInUp";
+import FadeInUp from "@ohshitnotgood/kmanim/src/FadeInUp";
 import ChapterLogo from "./ChapterLogo";
 import Footer from "./Footer";
-import HoverPopup from "../../node_modules/kmanim/src/components/HoverPopup";
+import HoverPopup from "@ohshitnotgood/kmanim/src/HoverPopup";
 
 /**
  * Responsive navigation bar for the KAM-website.
