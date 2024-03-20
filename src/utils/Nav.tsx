@@ -202,15 +202,16 @@ function JoinKAMTeamButton() {
     return (
         <NavBarButton
             buttonTitle={`Join KAM Team`}
-            buttonLink={`/join-kam-team`}
+            buttonLink={`/join`}
             subMenuItems={[]} />
     )
 }
 
 function ExhibitorsButton() {
     const subMenuItems = [
-        {name: `Attending KAM`, link: `/exhibitors/attending`},
-        {name: `Schedule`, link: `/exhibitors/schedule`},
+        {name: `Attending KAM`, link: `/companies/attending-kam`},
+        {name: `Schedule`, link: `/companies/schedule`},
+        {name: `Join KAM as Exhibitor`, link: `/companies/join`},
     ]
     return (
         <NavBarButton buttonTitle={`Exhibitors`} buttonLink={`/exhibitors/info`} subMenuItems={subMenuItems}/>
@@ -235,7 +236,7 @@ function StudentsButton() {
  */
 function CallForExhibitorsButton() {
     return (
-        <NavBarButton buttonTitle={`Call for Exhibitors`} buttonLink={`/exhibitors/join`} subMenuItems={[]}/>
+        <NavBarButton buttonTitle={`Call for Exhibitors`} buttonLink={`/companies/info`} subMenuItems={[]}/>
     )
 }
 
