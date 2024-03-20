@@ -1,6 +1,6 @@
 {
   "name": "@ohshitnotgood/kmutils",
-  "version": "0.0.2",
+  "version": "0.0.4-alpha",
   "author": "Praanto Samadder",
   "description": "Font and UI components used by kam.insektionen.se",
   "scripts": {

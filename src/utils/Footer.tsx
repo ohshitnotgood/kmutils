@@ -1,7 +1,7 @@
 import whiteLogo from "../assets/chapter-logo-dhola.svg";
 import thsWhiteLogo from "../assets/ths-logo-dhola.png";
 import kamTempLogo from "../assets/kam_temp.svg";
-import mainSponsorLogo from "../../assets/logos/logoipsum-251.svg"
+import mainSponsorLogo from "../assets/logoipsum-251.svg"
 import HoverReactiveText from "@ohshitnotgood/kmanim/src/HoverReactiveText";
 
 export default function Footer() {
